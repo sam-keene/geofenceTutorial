@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>radius</key>
+		<string>20</string>
+		<key>description</key>
+		<string>some descriptive3 text</string>
+		<key>latitude</key>
+		<real>40.756352</real>
+		<key>longitude</key>
+		<real>-73.993601</real>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>some descriptive3 text</string>
+		<key>latitude</key>
+		<real>40.714623</real>
+		<key>longitude</key>
+		<real>-73.95089</real>
+		<key>radius</key>
+		<real>20</real>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>some descriptive3 text</string>
+		<key>latitude</key>
+		<real>40.755328</real>
+		<key>longitude</key>
+		<real>-73.991179</real>
+		<key>radius</key>
+		<real>20</real>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>some descriptive3 text</string>
+		<key>latitude</key>
+		<real>40.757132</real>
+		<key>longitude</key>
+		<real>-73.99353600000001</real>
+		<key>radius</key>
+		<integer>30</integer>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>some descriptive3 text</string>
+		<key>url</key>
+		<string>http://tipan.samkeene.jit.su</string>
+		<key>latitude</key>
+		<real>40.756142</real>
+		<key>longitude</key>
+		<real>-73.991179</real>
+		<key>radius</key>
+		<integer>30</integer>
+	</dict>
+</array>
+</plist>

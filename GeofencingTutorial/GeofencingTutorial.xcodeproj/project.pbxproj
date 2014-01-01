@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97F588461873B04200455847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F588451873B04200455847 /* Foundation.framework */; };
+		97F588481873B04200455847 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F588471873B04200455847 /* CoreGraphics.framework */; };
+		97F5884A1873B04200455847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F588491873B04200455847 /* UIKit.framework */; };
+		97F588501873B04200455847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97F5884E1873B04200455847 /* InfoPlist.strings */; };
+		97F588521873B04200455847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F588511873B04200455847 /* main.m */; };
+		97F588561873B04200455847 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F588551873B04200455847 /* AppDelegate.m */; };
+		97F588591873B04200455847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F588571873B04200455847 /* Main.storyboard */; };
+		97F5885C1873B04200455847 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F5885B1873B04200455847 /* ViewController.m */; };
+		97F5885E1873B04200455847 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F5885D1873B04200455847 /* Images.xcassets */; };
+		97F588651873B04200455847 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F588641873B04200455847 /* XCTest.framework */; };
+		97F588661873B04200455847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F588451873B04200455847 /* Foundation.framework */; };
+		97F588671873B04200455847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F588491873B04200455847 /* UIKit.framework */; };
+		97F5886F1873B04200455847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97F5886D1873B04200455847 /* InfoPlist.strings */; };
+		97F588711873B04200455847 /* GeofencingTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F588701873B04200455847 /* GeofencingTutorialTests.m */; };
+		97F5887B1873B16B00455847 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F5887A1873B16B00455847 /* CoreLocation.framework */; };
+		97F588821873D08200455847 /* regions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97F588811873D08200455847 /* regions.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97F588681873B04200455847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97F5883A1873B04200455847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97F588411873B04200455847;
+			remoteInfo = GeofencingTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97F588421873B04200455847 /* GeofencingTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeofencingTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F588451873B04200455847 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		97F588471873B04200455847 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		97F588491873B04200455847 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		97F5884D1873B04200455847 /* GeofencingTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeofencingTutorial-Info.plist"; sourceTree = "<group>"; };
+		97F5884F1873B04200455847 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97F588511873B04200455847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97F588531873B04200455847 /* GeofencingTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeofencingTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		97F588541873B04200455847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97F588551873B04200455847 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97F588581873B04200455847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97F5885A1873B04200455847 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97F5885B1873B04200455847 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97F5885D1873B04200455847 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		97F588631873B04200455847 /* GeofencingTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofencingTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F588641873B04200455847 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		97F5886C1873B04200455847 /* GeofencingTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeofencingTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		97F5886E1873B04200455847 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97F588701873B04200455847 /* GeofencingTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeofencingTutorialTests.m; sourceTree = "<group>"; };
+		97F5887A1873B16B00455847 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		97F588811873D08200455847 /* regions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = regions.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97F5883F1873B04200455847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F5887B1873B16B00455847 /* CoreLocation.framework in Frameworks */,
+				97F588481873B04200455847 /* CoreGraphics.framework in Frameworks */,
+				97F5884A1873B04200455847 /* UIKit.framework in Frameworks */,
+				97F588461873B04200455847 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F588601873B04200455847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F588651873B04200455847 /* XCTest.framework in Frameworks */,
+				97F588671873B04200455847 /* UIKit.framework in Frameworks */,
+				97F588661873B04200455847 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97F588391873B04200455847 = {
+			isa = PBXGroup;
+			children = (
+				97F5884B1873B04200455847 /* GeofencingTutorial */,
+				97F5886A1873B04200455847 /* GeofencingTutorialTests */,
+				97F588441873B04200455847 /* Frameworks */,
+				97F588431873B04200455847 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97F588431873B04200455847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97F588421873B04200455847 /* GeofencingTutorial.app */,
+				97F588631873B04200455847 /* GeofencingTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97F588441873B04200455847 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97F5887A1873B16B00455847 /* CoreLocation.framework */,
+				97F588451873B04200455847 /* Foundation.framework */,
+				97F588471873B04200455847 /* CoreGraphics.framework */,
+				97F588491873B04200455847 /* UIKit.framework */,
+				97F588641873B04200455847 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97F5884B1873B04200455847 /* GeofencingTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				97F588541873B04200455847 /* AppDelegate.h */,
+				97F588551873B04200455847 /* AppDelegate.m */,
+				97F588571873B04200455847 /* Main.storyboard */,
+				97F5885A1873B04200455847 /* ViewController.h */,
+				97F5885B1873B04200455847 /* ViewController.m */,
+				97F588811873D08200455847 /* regions.plist */,
+				97F5885D1873B04200455847 /* Images.xcassets */,
+				97F5884C1873B04200455847 /* Supporting Files */,
+			);
+			path = GeofencingTutorial;
+			sourceTree = "<group>";
+		};
+		97F5884C1873B04200455847 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F5884D1873B04200455847 /* GeofencingTutorial-Info.plist */,
+				97F5884E1873B04200455847 /* InfoPlist.strings */,
+				97F588511873B04200455847 /* main.m */,
+				97F588531873B04200455847 /* GeofencingTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97F5886A1873B04200455847 /* GeofencingTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				97F588701873B04200455847 /* GeofencingTutorialTests.m */,
+				97F5886B1873B04200455847 /* Supporting Files */,
+			);
+			path = GeofencingTutorialTests;
+			sourceTree = "<group>";
+		};
+		97F5886B1873B04200455847 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F5886C1873B04200455847 /* GeofencingTutorialTests-Info.plist */,
+				97F5886D1873B04200455847 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97F588411873B04200455847 /* GeofencingTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F588741873B04200455847 /* Build configuration list for PBXNativeTarget "GeofencingTutorial" */;
+			buildPhases = (
+				97F5883E1873B04200455847 /* Sources */,
+				97F5883F1873B04200455847 /* Frameworks */,
+				97F588401873B04200455847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeofencingTutorial;
+			productName = GeofencingTutorial;
+			productReference = 97F588421873B04200455847 /* GeofencingTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97F588621873B04200455847 /* GeofencingTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97F588771873B04200455847 /* Build configuration list for PBXNativeTarget "GeofencingTutorialTests" */;
+			buildPhases = (
+				97F5885F1873B04200455847 /* Sources */,
+				97F588601873B04200455847 /* Frameworks */,
+				97F588611873B04200455847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97F588691873B04200455847 /* PBXTargetDependency */,
+			);
+			name = GeofencingTutorialTests;
+			productName = GeofencingTutorialTests;
+			productReference = 97F588631873B04200455847 /* GeofencingTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97F5883A1873B04200455847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sam  keene";
+				TargetAttributes = {
+					97F588621873B04200455847 = {
+						TestTargetID = 97F588411873B04200455847;
+					};
+				};
+			};
+			buildConfigurationList = 97F5883D1873B04200455847 /* Build configuration list for PBXProject "GeofencingTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97F588391873B04200455847;
+			productRefGroup = 97F588431873B04200455847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97F588411873B04200455847 /* GeofencingTutorial */,
+				97F588621873B04200455847 /* GeofencingTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97F588401873B04200455847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F5885E1873B04200455847 /* Images.xcassets in Resources */,
+				97F588501873B04200455847 /* InfoPlist.strings in Resources */,
+				97F588821873D08200455847 /* regions.plist in Resources */,
+				97F588591873B04200455847 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F588611873B04200455847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F5886F1873B04200455847 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97F5883E1873B04200455847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F5885C1873B04200455847 /* ViewController.m in Sources */,
+				97F588561873B04200455847 /* AppDelegate.m in Sources */,
+				97F588521873B04200455847 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97F5885F1873B04200455847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F588711873B04200455847 /* GeofencingTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97F588691873B04200455847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97F588411873B04200455847 /* GeofencingTutorial */;
+			targetProxy = 97F588681873B04200455847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97F5884E1873B04200455847 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F5884F1873B04200455847 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		97F588571873B04200455847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F588581873B04200455847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97F5886D1873B04200455847 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97F5886E1873B04200455847 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97F588721873B04200455847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97F588731873B04200455847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97F588751873B04200455847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeofencingTutorial/GeofencingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "GeofencingTutorial/GeofencingTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		97F588761873B04200455847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeofencingTutorial/GeofencingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "GeofencingTutorial/GeofencingTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		97F588781873B04200455847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeofencingTutorial.app/GeofencingTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeofencingTutorial/GeofencingTutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GeofencingTutorialTests/GeofencingTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		97F588791873B04200455847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeofencingTutorial.app/GeofencingTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeofencingTutorial/GeofencingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "GeofencingTutorialTests/GeofencingTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97F5883D1873B04200455847 /* Build configuration list for PBXProject "GeofencingTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F588721873B04200455847 /* Debug */,
+				97F588731873B04200455847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97F588741873B04200455847 /* Build configuration list for PBXNativeTarget "GeofencingTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F588751873B04200455847 /* Debug */,
+				97F588761873B04200455847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97F588771873B04200455847 /* Build configuration list for PBXNativeTarget "GeofencingTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97F588781873B04200455847 /* Debug */,
+				97F588791873B04200455847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97F5883A1873B04200455847 /* Project object */;
+}
